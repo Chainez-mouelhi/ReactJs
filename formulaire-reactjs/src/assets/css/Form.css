@@ -1,0 +1,92 @@
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/* Reset box-sizing and set the font-family */
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  
+  min-height: 40vh;
+  position: relative;
+  top:15vh;
+  left:35vh;
+}
+
+.formcontainer {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10% 0% 0% 0%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding:  0px 55px 55px 55px;
+  backdrop-filter: blur(8px); 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+button {
+  background: #000000;
+  color: #fff;
+  padding: 12px 45px;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  position: relative;
+  top: 3vh;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+
+
+
+
+h1 {
+  font-size: 2.5em;
+}
+
+

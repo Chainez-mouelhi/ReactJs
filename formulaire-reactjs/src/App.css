@@ -1,0 +1,115 @@
+/* LandingPage.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  background: url('./assets/img/0de28f133974421.61cb071a69dc0.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo {
+  width: 190px;
+  height: auto;
+  position: relative;
+  top: -31vh;
+  left: -25vh;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 20px; /* Augmentez la marge pour un espacement plus large */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #000000; /* Couleur au survol */
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 80vh; /* Ajustez la hauteur selon vos besoins */
+}
+
+
+/* Ajoutez cette section à la fin de votre CSS pour le mode téléphone (max-width: 480px) */
+
+/* Styles pour les écrans de petite taille (téléphones) */
+@media (max-width: 480px) {
+  body {
+    background: url('./assets/img/0de28f133974421.61cb071a69dc0.jpg') no-repeat center top;
+    background-size: cover;
+  }
+
+  .container {
+    top: 10vh;
+    left: -8vh;
+    min-height: 60vh;
+  }
+
+  .formcontainer {
+    max-width: 100%;
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+  }
+
+  button {
+    top: 0;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .logo {
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: -20vh;
+    left: -15vh;
+  }
+
+  .navbar {
+    padding: 20px 0;
+  }
+
+  .navbar li {
+    margin: 0 10px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  .navbar ul {
+    padding: 0;
+  }
+}
